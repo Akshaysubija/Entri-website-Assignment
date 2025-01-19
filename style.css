@@ -12,13 +12,14 @@
   }
   
   h1 {
-    color: rgb(24, 2, 80);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(80, 2, 2);
+    font-family:'Courier New', Courier, monospace;
     font-style: var();
   }
   
   h2 {
-    color: rgb(10, 47, 133);
+    color: rgb(133, 10, 51);
+    font-family: 'Courier New', Courier, monospace;
   }
   
   h3 {
@@ -59,7 +60,7 @@
   
  
   nav ul li a:hover {
-    background-color:hsl(156, 81%, 38%);
+    background-color:hsl(188, 92%, 26%);
     border-radius:5px; 
   }
  
@@ -68,7 +69,7 @@
   form {
     max-width: 1000px;
     margin: 20px auto;
-    background-color: hsl(226, 100%, 88%);
+    background-color: hsl(188, 65%, 77%);
     padding: 30px;
     border-radius: 80px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
