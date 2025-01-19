@@ -1,0 +1,152 @@
+.center-div {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+  }
+  
+  .text-center {
+    background-color: #17b4a7;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+  }
+  
+  h1 {
+    color: rgb(24, 2, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: var();
+  }
+  
+  h2 {
+    color: rgb(10, 47, 133);
+  }
+  
+  h3 {
+    color: rgb(135, 11, 11);
+  }
+
+  p{
+    font-style:oblique;
+  }
+  
+  .jumbo {
+    background-color: rgb(134, 194, 194);
+    color: rgb(4, 102, 172);
+    font-style: oblique;
+  }
+  
+  body{
+    background-image: url(pexels-lum3n-44775-311039.jpg);
+    height: 50vh;
+    width: 205vh;
+  }
+  
+    
+  a:hover{
+    color:yellow;
+  }
+  
+  nav ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(199, 61, 153);
+  }
+  
+  nav ul li {
+    margin: 0 5px;
+  }
+  
+ 
+  nav ul li a:hover {
+    background-color:hsl(156, 81%, 38%);
+    border-radius:5px; 
+  }
+ 
+ 
+  
+  form {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: hsl(226, 100%, 88%);
+    padding: 30px;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input,
+  form textarea {
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  }
+  
+  form button {
+    background-color: hsl(0, 92%, 45%);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70px; 
+        height: 30px;
+        font-size: 20px; 
+        margin-bottom: 30px;
+    
+  }
+  
+
+   .big button {
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color:#151f6c;
+    border: none;
+    border-radius: 15px;
+    background-color: #0a61b3;
+
+  }
+  
+  .button:active {
+    transform: translateY(4px);
+  }
+  
+  button:hover {
+    background-color: rgb(16, 86, 136);
+  }
+
+  
+   @media (max-width:500px) {
+    h1{
+      color:red
+    }
+  }
+
+
+@media (orientation: portrait) and (min-width:600px){
+ h1 { 
+    color:darkred;
+  }
+}
+
+
+@media (orientation: landscape) and (min-width:900px){
+  h1 {
+       color:#076614;
+    }
+  }
+   
+
+ 
+
+
+
+
+
+
+
